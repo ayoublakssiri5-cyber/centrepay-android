@@ -88,4 +88,4 @@ Built as a personal/academic project. Parts of the code were produced with the h
 
 The original code of this project is released under the [MIT License](LICENSE).
 
-The MIT License does **not** cover third-party material kept in the repository: the Gradle Wrapper (`gradlew`, `gradlew.bat`, `gradle/wrapper/`, Apache License 2.0) and the vector icons `app/src/main/res/drawable/ic_*_24.xml`, based on Google Material Icons (Apache License 2.0). Libraries downloaded at build time keep their own licenses. See [`LICENSE`](LICENSE).
+The MIT License does **not** cover third-party material kept in the repository: the Gradle Wrapper (`gradlew`, `gradlew.bat`, `gradle/wrapper/`, Apache License 2.0) and the vector icons `app/src/main/res/drawable/ic_*_24.xml`, based on Google Material Icons (Apache License 2.0). Libraries downloaded at build time keep their own licenses. See [`NOTICE.md`](NOTICE.md).
