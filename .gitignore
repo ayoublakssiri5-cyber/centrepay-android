@@ -1,0 +1,23 @@
+# Gradle / Android Studio
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+.idea/
+*.iml
+local.properties
+
+# Build outputs and signing material
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Data: never commit real databases, exports or screenshots of real users
+*.db
+*.db-journal
+*.csv
+/*.png
+/*.jpg
+*-check.png

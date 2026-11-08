@@ -1,0 +1,27 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.centrepay.mobile'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.centrepay.mobile'
+        minSdk 24
+        targetSdk 36
+        versionCode 2
+        versionName '1.1.0'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+// Test-only libraries: nothing is added to the APK.
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.robolectric:robolectric:4.14.1'
+}
